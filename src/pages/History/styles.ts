@@ -47,15 +47,15 @@ export const HistoryList = styled.div`
       padding: 1rem;
       font-size: 0.875rem;
       line-height: 1.6;
-    }
 
-    &:first-child {
-      width: 50%;
-      padding-left: 1.5rem;
-    }
+      &:first-child {
+        width: 50%;
+        padding-left: 1.5rem;
+      }
 
-    &:last-child {
-      padding-right: 1.5rem;
+      &:last-child {
+        padding-right: 1.5rem;
+      }
     }
   }
 `
