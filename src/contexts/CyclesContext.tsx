@@ -10,7 +10,7 @@ interface Cycle {
   task: string
   minutesAmount: number
   startDate: Date
-  inerruptedDate?: Date
+  interruptedDate?: Date
   finishedDate?: Date
 }
 
@@ -80,7 +80,7 @@ export function CyclesContextProvider({
         if (cycle.id === activeCycleId) {
           return {
             ...cycle,
-            inerruptedDate: new Date(),
+            interruptedDate: new Date(),
           }
         } else {
           return cycle
