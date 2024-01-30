@@ -1,8 +1,8 @@
 import { HandPalm, Play } from 'phosphor-react'
 import * as zod from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
-import { NewCycleForm } from './NewCycleForm'
-import { Countdown } from './Countdown'
+import { NewCycleForm } from './components/NewCycleForm'
+import { Countdown } from './components/Countdown'
 import { FormProvider, useForm } from 'react-hook-form'
 import {
   HomeContainer,
