@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# Ignite Timer - Aprofundando em Hooks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao Ignite Timer, um projeto desenvolvido durante o curso Ignite da Rocketseat! Aqui estou imerso na ampliação dos meus conhecimentos em Hooks e na criação de Single Page Applications (SPAs) com ReactJS. O foco é construir uma aplicação completa, explorando conceitos cruciais do ecossistema React, como ContextAPI, useReducer, immer, e muito mais. Este repositório reflete a minha jornada de aprendizado, onde busco assimilar e aplicar os conhecimentos adquiridos no curso.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/): Uma biblioteca JavaScript para construção de interfaces de usuário.
+- [ContextAPI](https://reactjs.org/docs/context.html): Uma API do React que facilita o compartilhamento de dados entre componentes.
+- [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer): Um hook do React utilizado para gerenciar estados mais complexos.
+- [immer](https://immerjs.github.io/immer/): Uma biblioteca que facilita a criação de cópias imutáveis do estado.
+- [Styled Components](https://styled-components.com/): Uma biblioteca para estilizar componentes no React de maneira fácil e reutilizável.
+- [React Hook Form](https://react-hook-form.com/): Uma biblioteca para gerenciar formulários no React, oferecendo uma experiência de desenvolvimento simplificada e eficiente.
 
-## Expanding the ESLint configuration
+## Como Iniciar
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Clone o repositório:**
 
-- Configure the top-level `parserOptions` property like this:
+   ```bash
+   git clone https://github.com/oFernandoLima/02-ignite-timer.git
+   cd 02-ignite-timer
+   ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. **Instale as dependências:**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   npm install
+   ```
+
+3. **Execute o aplicativo:**
+
+   ```bash
+   npm run dev
+   ```
